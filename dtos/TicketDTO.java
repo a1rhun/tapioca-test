@@ -1,32 +1,32 @@
 package dtos;
 
 public class TicketDTO {
-    private Integer ticket_id;
-    private String ticket_name;
-    private Integer ticket_user;
+    private Integer ticketId;
+    private String ticketName;
+    private Integer ticketUser;
 
     // Getters and Setters
     public Integer getTicketId() {
-        return ticket_id;
+        return ticketId;
     }
 
-    public void setTicketId(Integer ticket_id) {
-        this.ticket_id = ticket_id;
+    public void setTicketId(Integer ticketId) {
+        this.ticketId = ticketId;
     }
 
     public String getTicketName() {
-        return ticket_name;
+        return ticketName;
     }
 
-    public void setTicketName(String ticket_name) {
-        this.ticket_name = ticket_name;
+    public void setTicketName(String ticketName) {
+        this.ticketName = ticketName;
     }
 
     public Integer getTicketUser() {
-        return ticket_user;
+        return ticketUser;
     }
 
-    public void setTicketUser(Integer ticket_user) {
-        this.ticket_user = ticket_user;
+    public void setTicketUser(Integer ticketUser) {
+        this.ticketUser = ticketUser;
     }
 }
