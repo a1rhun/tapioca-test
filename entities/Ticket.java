@@ -8,7 +8,6 @@ public class Ticket {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer ticket_id;
-
     private String ticket_name;
     private Integer ticket_user;
 
