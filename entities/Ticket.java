@@ -1,0 +1,38 @@
+package entities;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "tickets")
+public class Ticket {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer ticketId;
+    private String ticketName;
+    private Integer ticketUser;
+
+    // Getters and Setters
+    public Integer getTicketId() {
+        return ticketId;
+    }
+
+    public void setTicketId(Integer ticketId) {
+        this.ticketId = ticketId;
+    }
+
+    public String getTicketName() {
+        return ticketName;
+    }
+
+    public void setTicketName(String ticketName) {
+        this.ticketName = ticketName;
+    }
+
+    public Integer getTicketUser() {
+        return ticketUser;
+    }
+
+    public void setTicketUser(Integer ticketUser) {
+        this.ticketUser = ticketUser;
+    }
+}
